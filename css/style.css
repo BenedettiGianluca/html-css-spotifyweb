@@ -2,5 +2,137 @@
     box-sizing: border-box;
     margin: 0;
     font-family: sans-serif;
-    background-color: grey;
+    font-size: 11px;
+}
+
+h3 {
+    font-size: 12px;
+}
+
+
+/* SEZIONE ALTA */
+.EFFETTUA-UPGRADE {
+    position: fixed;
+    z-index: 1;
+    left: 16%;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #080b12;
+    width: 84%;
+}
+
+.EFFETTUA-UPGRADE button {
+    background-color: #080b12;
+    color: white;
+    padding: 1% 2.5%;
+    border: 0.5% solid white;
+    border-radius: 40px;
+    margin: 1.2% 0.5% 1.8% 0;
+}
+
+
+/* SEZIONE LATERALE */
+.sezione-laterale {
+    display: flex;
+    flex-flow: column wrap;
+    background-color: black;
+    color: #717171;
+    width: 16%;
+    padding-left: 1.5%;
+}
+
+.sezione-laterale img {
+    transform: scale(0.6) translateX(-35%);
+    margin-bottom: 8%;
+}
+
+.sezione-laterale ul {
+    list-style-type: none;
+    padding-left: 1%;
+}
+
+.sezione-laterale li {
+    margin-bottom: 8%;
+}
+
+.sezione-laterale i {
+    font-size: 17px;
+    margin-right: 2%;
+}
+
+.fa-grip-lines-vertical:first-of-type {
+    margin-right: 0;   /* questo perchè a riga 22 ci sono due <i></i> vicine */
+}
+
+.sezione-laterale h3 {
+    color: white;
+    margin: 13% 0 6% 0;
+}
+
+.Playlist {
+    overflow-y: scroll;
+    padding-bottom: 60%;
+}
+
+.Playlist::-webkit-scrollbar {
+    display: none;
+}
+
+.Playlist .fa-plus {
+    background-color: #a3a3a3;
+    color: black;
+    padding: 4%;
+    border: 0.1% solid black;
+    margin-right: 4%;
+}
+
+.sezione-laterale a {
+    color: #a3a3a3;
+    text-decoration: none;
+}
+
+.sezione-laterale a i {
+    font-size: 11px;
+    margin-right: 4%;
+}
+
+.sezione-laterale hr {
+    width: 90%;
+    border: 0.2% solid #a3a3a3;
+    margin-bottom: 7%;
+}
+
+.Autori i {
+    background-color: #808080;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-right: 4%;
+}
+
+.Autori b {
+    color: white;
+    vertical-align: super;
+}
+
+
+/* SEZIONE PRINCIPALE */
+.sezione-principale {
+    position: absolute;
+    top: 0;
+    left: 16%;
+    display: flex;
+    background-color: #141922;
+    width: 84%;
+}
+
+
+/* FOOTER */
+footer {
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    background-color: #282828;
+    width: 100%;
 }
