@@ -17,7 +17,7 @@
         <aside class="sezione-laterale">
             <img src="img/logo.svg" alt="">
             <ul>
-                <li><i class="fas fa-home"></i>Home</li>
+                <li class="home"><i class="fas fa-home"></i>Home</li>
                 <li><i class="fas fa-search"></i>Cerca</li>
                 <li><i class="fas fa-grip-lines-vertical"></i><i class="fas fa-grip-lines-vertical"></i>La tua libreria</li>
             </ul>
@@ -41,8 +41,7 @@
 
         <section class="sezione-principale">
             <nav>
-                <h3 class="IN-EVIDENZA">IN EVIDENZA</h3>
-                <hr>
+                <h3 class="IN-EVIDENZA">IN EVIDENZA<hr></h3>
                 <h3>PODCAST</h3>
                 <h3>CLASSIFICHE</h3>
                 <h3>GENERI E MOOD</h3>
@@ -53,32 +52,55 @@
             <h2>Recently played</h2>
             <div class="contenitore">
                 <div>
-                    <img src="img/metal_lifting.jpg" alt="">
+                    <div id="cont-img-uno" class="contenitore-immagine">
+                        <div class="trasparenza-immagine"></div>
+                        <i class="far fa-play-circle"></i>
+                    </div>
                     <h3>Heavy Metal</h3>
                     <p>Subtitle</p>
                 </div>
                 <div>
                     <img src="img/stranger.jpeg" alt="">
+                    <!--div id="cont-img-due" class="contenitore-immagine">
+                        <div class="trasparenza-immagine"></div>
+                        <i class="far fa-play-circle"></i>
+                    </div-->
                     <h3>Stranger Things, Vol.1 (a Netflix Original Series Soundtrack)</h3>
                     <p>Kyle Dixon &amp; Michael Stein</p>
                 </div>
                 <div>
                     <img src="img/aquietplace.jpeg" alt="">
+                    <!--div id="cont-img-tre" class="contenitore-immagine">
+                        <div class="trasparenza-immagine"></div>
+                        <i class="far fa-play-circle"></i>
+                    </div-->
                     <h3>A quite place</h3>
                     <p>Subtitle</p>
                 </div>
                 <div>
                     <img src="img/split.jpeg" alt="">
+                    <!--div id="cont-img-quattro" class="contenitore-immagine">
+                        <div class="trasparenza-immagine"></div>
+                        <i class="far fa-play-circle"></i>
+                    </div-->
                     <h3>Split</h3>
                     <p>Subtitle</p>
                 </div>
                 <div>
                     <img src="img/cure.jpeg" alt="">
+                    <!--div id="cont-img-cinque" class="contenitore-immagine">
+                        <div class="trasparenza-immagine"></div>
+                        <i class="far fa-play-circle"></i>
+                    </div-->
                     <h3>A cure for wellness</h3>
                     <p>Subtitle</p>
                 </div>
                 <div>
                     <img src="img/sinister.jpeg" alt="">
+                    <!--div id="cont-img-sei" class="contenitore-immagine">
+                        <div class="trasparenza-immagine"></div>
+                        <i class="far fa-play-circle"></i>
+                    </div-->
                     <h3>Sinister</h3>
                     <p>Subtitle</p>
                 </div>
@@ -89,10 +111,18 @@
             <div class="contenitore">
                 <div>
                     <img src="img/radar.jpeg" alt="">
+                    <!--div id="cont-img-a1" class="contenitore-immagine">
+                        <div class="trasparenza-immagine"></div>
+                        <i class="far fa-play-circle"></i>
+                    </div-->
                     <h3>Release Radar</h3>
                 </div>
                 <div>
                     <img src="img/mixdaily.jpeg" alt="">
+                    <!--div id="cont-img-a2" class="contenitore-immagine">
+                        <div class="trasparenza-immagine"></div>
+                        <i class="far fa-play-circle"></i>
+                    </div-->
                     <h3>Daily Mix 1</h3>
                 </div>
             </div>
@@ -102,10 +132,18 @@
             <div class="contenitore">
                 <div>
                     <img class="img-rotonda" src="img/youg.jpeg" alt="">
+                    <!--div id="cont-img-b1" class="contenitore-immagine-trasparente">
+                        <div class="trasparenza-immagine"></div>
+                        <i class="far fa-play-circle"></i>
+                    </div-->
                     <h3>Lana Del Rey</h3>
                 </div>
                 <div>
                     <img class="img-rotonda" src="img/einaudi.jpeg" alt="">
+                    <!--div id="cont-img-b2" class="contenitore-immagine-trasparente">
+                        <div class="trasparenza-immagine"></div>
+                        <i class="far fa-play-circle"></i>
+                    </div-->
                     <h3>Ludovico Einaudi</h3>
                 </div>
             </div>
@@ -114,30 +152,34 @@
         <footer>
             <div class="footer-sinistra">
                 <img src="img/sinister.jpeg" alt="">
-                <h4>Sinister</h4>
-                <p>Brano nome</p>
+                <div>
+                    <h4>Sinister</h4>
+                    <p>Brano nome</p>
+                </div>
                 <i class="far fa-heart"></i>
                 <i class="far fa-folder"></i>
             </div>
 
             <div class="footer-centro">
-                <i class="fas fa-random"></i>
-                <i class="fas fa-step-backward"></i>
-                <i class="far fa-play-circle"></i>
-                <i class="fas fa-step-forward"></i>
-                <i class="fas fa-redo-alt"></i>
-                <span>0:25</span>
-                <span></span>
-                <span></span>
-                <span>4:35</span>
+                <div>
+                    <i class="fas fa-random"></i>
+                    <i class="fas fa-step-backward"></i>
+                    <i class="far fa-play-circle"></i>
+                    <i class="fas fa-step-forward"></i>
+                    <i class="fas fa-redo-alt"></i>
+                </div>
+                <div>
+                    <b>0:25</b>
+                    <span class="playbar-completa"><span class="playbar"></span></span>
+                    <b>4:35</b>
+                </div>
             </div>
 
             <div class="footer-destra">
                 <i class="fas fa-list"></i>
                 <i class="fas fa-tv"></i>
                 <i class="fas fa-volume-up"></i>
-                <span></span>
-                <span></span>
+                <span class="soundbar-completa"><span class="soundbar"></span></span>
             </div>
         </footer>
     </main>
