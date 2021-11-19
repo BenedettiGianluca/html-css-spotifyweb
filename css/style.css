@@ -61,20 +61,21 @@ p {
     background-color: black;
     color: #717171;
     width: 18%;
-    padding-left: 2%;
 }
 
 .sezione-laterale img {
     transform: scale(0.6) translateX(-35%);
+    margin-left: 8%;
     margin-bottom: 3%;
 }
 
 .sezione-laterale ul {
     list-style-type: none;
-    padding-left: 1%;
+    padding-left: 0;
 }
 
 .sezione-laterale li {
+    padding-left: 8%;
     margin-bottom: 6%;
 }
 
@@ -90,6 +91,7 @@ p {
 
 .sezione-laterale .home {
     color: white;
+    border-left: 3px solid #adff2f;
 }
 
 .sezione-laterale .home i {
@@ -107,12 +109,12 @@ p {
 
 .sezione-laterale h3 {
     color: white;
-    margin: 10% 0 5% 0;
+    margin: 10% 0 5% 8%;
 }
 
 .Playlist {
     overflow-y: scroll;
-    padding-bottom: 85%;
+    padding-bottom: 72%;
 }
 
 .Playlist::-webkit-scrollbar {
@@ -135,6 +137,7 @@ p {
 .sezione-laterale a {
     color: #a3a3a3;
     text-decoration: none;
+    margin-left: 8%;
 }
 
 .sezione-laterale a:hover {
@@ -148,8 +151,9 @@ p {
 }
 
 .sezione-laterale hr {
-    width: 90%;
-    border: 0.2% solid #a3a3a3;
+    width: 87%;
+    border: 1px solid #a3a3a3;
+    margin-left: 7%;
     margin-bottom: 4%;
 }
 
@@ -217,49 +221,50 @@ p {
 }
 
 .sezione-principale .contenitore div {
+    position: relative;
     display: flex;
     flex-direction: column;
     width: 14%;
     margin-right: 1.5%;
 }
 
-/*
-.sezione-principale .contenitore div .contenitore-immagine {
-    position: relative;
-    background-size: cover;
+.sezione-principale #Ascoltati-di-recente div .trasparenza-immagine {
+    position: absolute;
     width: 100%;
     height: 67%;
 }
 
-.sezione-principale .contenitore div .contenitore-immagine-trasparente {
+.sezione-principale #Per-John-Doe div .trasparenza-immagine {
+    position: absolute;
+    width: 100%;
+    height: 82%;
+}
+
+.sezione-principale #Artisti-Popolari div .trasparenza-immagine {
+    position: absolute;
+    width: 100%;
+    height: 82%;
     border-radius: 100px;
 }
 
-.sezione-principale .contenitore div .contenitore-immagine .trasparenza-immagine {
+.sezione-principale .contenitore div .trasparenza-immagine i {
     position: absolute;
-    width: 100%;
-    height: 100%;
-}
-
-.sezione-principale .contenitore div .contenitore-immagine i {
-    position: absolute;
-    color: white;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    font-size: 0px;
+    font-size: 0;
 }
 
-.sezione-principale .contenitore div .contenitore-immagine:hover .trasparenza-immagine {
+.sezione-principale .contenitore div .trasparenza-immagine:hover {
     background-color: rgba(0, 0, 0, 0.3);
     cursor: pointer;
 }
 
-.sezione-principale .contenitore div .contenitore-immagine:hover i {
+.sezione-principale .contenitore div .trasparenza-immagine:hover i {
+    color: white;
     font-size: 40px;
     cursor: pointer;
 }
-*/
 
 .sezione-principale .contenitore div h3 {
     color: white;
